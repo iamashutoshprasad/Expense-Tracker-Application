@@ -1,14 +1,14 @@
 .expense-item1 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     
     background-color: #4b4b4b;
   }
   
   .expense-item__description {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     align-items: flex-end;
     flex-flow: column-reverse;

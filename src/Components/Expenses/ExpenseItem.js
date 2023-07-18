@@ -11,8 +11,9 @@ function ExpenseItem(props) {
 
         <ExpenseDetails
           amount={props.amount}
-          location={props.locatationofExpense}
-          title={props.title} />
+
+          title={props.title}
+          locatationofExpense={props.locatationofExpense} />
 
 
 

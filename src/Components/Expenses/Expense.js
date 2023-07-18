@@ -11,6 +11,7 @@ const Expenses = (props) => {
                 title={props.items[0].title}
                 amount={props.items[0].amount}
                 date={props.items[0].date}
+                locatationofExpense={props.items[0].locatationofExpense}
             />
             <ExpenseItem
                 title={props.items[1].title}
