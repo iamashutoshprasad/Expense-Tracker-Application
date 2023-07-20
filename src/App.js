@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "./Components/UI/Card";
 import ExpenseItem from "./Components/Expenses/ExpenseItem";
 function App() {
